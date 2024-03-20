@@ -26,4 +26,4 @@
 - Local storage to carry on editing a character
 - Automatic placeholder substitution
 - Visual W++/SBF/PList editor
-- W++/SBF/PList converter ([experimental W++ to Boostyle converter](https://zoltanai.github.io/character-editor/boo))
+- W++/SBF/PList converter ([experimental W++ to Boostyle converter](https://kaidenai.github.io/character-editor/boo))
