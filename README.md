@@ -1,6 +1,6 @@
 # AI Character Editor
 ![License](https://img.shields.io/github/license/ZoltanAI/character-editor)
-![Version](https://img.shields.io/badge/version-v0.5.0-blue)
+![Version](https://img.shields.io/badge/version-v1.0.0-blue)
 
 > Create, edit and convert to and from popular AI character formats easily
 
