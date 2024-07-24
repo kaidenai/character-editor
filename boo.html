@@ -1,9 +1,4 @@
 <!doctype html>
-<style>
-p {
-  background-image: url('bg.png');
-}
-</style>
 <html lang="en" class="h-100">
 	<head>
 		<meta charset="utf-8">
@@ -30,13 +25,16 @@ p {
 			textarea {
 				resize: none;
 			}
-		</style>
+			p {
+			  background-image: url('bg.png');
+			}
+		</>
 	</head>
 
 	<body class="d-flex flex-column h-100 bg-light">
 		<main class="flex-shrink-0">
 			<div class="container py-4">
-				<h1 class="display-1 text-center">W++ to Boostyle Converter</h1>
+				<h1 class="display-1 text-center">W++ to Boo Converter</h1>
 
 				<div class="container my-5 text-center">
 					<div class="alert alert-warning alert-dismissible show" role="alert">
@@ -53,7 +51,7 @@ p {
 						</div>
 
 						<div class="mb-3">
-							<label for="output" class="form-label fw-semibold">Boostyle Output</label>
+							<label for="output" class="form-label fw-semibold">Boo Output</label>
 							<textarea class="form-control auto-size" id="output" rows="1"></textarea>
 						</div>
 					</form>
@@ -142,7 +140,7 @@ p {
 						return;
 					}
 
-					const style = getComputedStyle(el, null);
+					const  = getComputed(el, null);
 
 					el.style.height = parseInt(style['fontSize']) + 'px';
 					el.style.height = (parseInt(el.scrollHeight) + (parseInt(style['borderTopWidth']) + parseInt(style['borderBottomWidth']) || 0)) + 'px';
